@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LwDatePicker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = '自定义时间选择器'
 
   s.description      = <<-DESC

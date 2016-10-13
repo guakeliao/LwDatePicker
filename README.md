@@ -17,13 +17,20 @@ LwDatePicker is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LwDatePicker"
+用法
+	pod "LwDatePicker"
+	支持xib和view创建
+    self.piker.datePikerModel = LwDatePikerModelDay;
+    self.piker.valueChangeBlock = ^(id date)
+    {
+        NSLog(@"%@",date);
+    };
 ```
 
 ## Author
 
-liaowei, 598951856@qq.com
+guakeliao, 598951856@qq.com
 
 ## License
 
-LwDatePicker is available under the MIT license. See the LICENSE file for more info.
+自定义时间选择器，可以定义yyyy-MM-dd:hh:mm:ss
