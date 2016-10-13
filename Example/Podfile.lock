@@ -1,0 +1,14 @@
+PODS:
+  - LwDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - LwDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  LwDatePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LwDatePicker: 81a4d5781796e9162dd04cf252d2a3a699ecd03f
+
+COCOAPODS: 0.39.0

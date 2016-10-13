@@ -1,0 +1,6 @@
+framework module LwDatePicker {
+  umbrella header "LwDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

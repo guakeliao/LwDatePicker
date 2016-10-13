@@ -1,0 +1,22 @@
+{
+  "name": "LwDatePicker",
+  "version": "0.1.0",
+  "summary": "A short description of LwDatePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LwDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liaowei": "598951856@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LwDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LwDatePicker/Classes/**/*"
+}
