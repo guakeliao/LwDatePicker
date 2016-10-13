@@ -1,0 +1,6 @@
+framework module Pods_LwDatePicker_Example {
+  umbrella header "Pods-LwDatePicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
