@@ -209,20 +209,24 @@
             _year = [pickerView selectedRowInComponent:0] + 1970;
             if (self.datePikerModel >= LwDatePikerModelDay) {
                 [self.pikerView reloadComponent:LwDatePikerModelDay - 1];
-            }
+            }break;
         case 1:
            _month = [pickerView selectedRowInComponent:1] + 1;
             if (self.datePikerModel >= LwDatePikerModelDay) {
                 [self.pikerView reloadComponent:LwDatePikerModelDay - 1];
-            }
+            }break;
         case 2:
             _day = [pickerView selectedRowInComponent:2] + 1;
+            break;
         case 3:
             _hour = [pickerView selectedRowInComponent:3] + 1;
+            break;
         case 4:
             _minute = [pickerView selectedRowInComponent:4] + 1;
+            break;
         case 5:
             _second = [pickerView selectedRowInComponent:5] + 1;
+            break;
         default:
             break;
     }
